@@ -2,11 +2,6 @@
 
 This repository contains implementations of various machine learning models from scratch. Each model is implemented as a Python function, and the implementations are tested using Jupyter notebooks. The goal is to demonstrate a clear understanding of machine learning algorithms by coding them without using high-level libraries like `scikit-learn` for the core implementations.
 
-## Structure
-
-- **`models/`**: Contains `.py` files where each file represents a different machine learning model implemented as a function.
-- **`notebooks/`**: Contains `.ipynb` files that test the corresponding models using various datasets.
-
 ## Models Implemented
 
 The following is a list of machine learning models that will be implemented. A checkmark will be added once a model is fully implemented and tested.
