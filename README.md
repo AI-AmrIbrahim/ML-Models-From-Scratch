@@ -7,7 +7,7 @@ This repository contains implementations of various machine learning models from
 The following is a list of machine learning models that will be implemented. A checkmark will be added once a model is fully implemented and tested.
 
 ### 1. Regression Models
-- [ ] Linear Regression
+- [x] Linear Regression
 - [ ] Lasso Regression
 - [ ] Ridge Regression
 - [ ] Logistic Regression
