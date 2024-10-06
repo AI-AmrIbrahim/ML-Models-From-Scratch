@@ -28,22 +28,11 @@ class LinearRegression:
     
     Assumptions:
     ------------
-    1. **Linearity**: The relationship between the features (X) and the target (y) is assumed to be linear.
-    2. **Independence**: Observations are assumed to be independent of each other.
-    3. **Homoscedasticity**: The variance of the residuals (errors) is assumed to be constant across all values of the independent variables.
-    4. **No Multicollinearity**: Independent variables are not highly correlated with each other.
-    5. **Normality of Errors**: The residuals (differences between observed and predicted values) are normally distributed.
-
-    Example:
-    --------
-    >>> import numpy as np
-    >>> from linear_regression import LinearRegression
-    >>> X = np.array([[1], [2], [3], [4]])
-    >>> y = np.array([2, 3, 5, 7])
-    >>> regressor = LinearRegression(learning_rate=0.01, iterations=1000)
-    >>> regressor.fit(X, y)
-    >>> predictions = regressor.predict(X)
-    >>> print(predictions)
+    1. Linearity: The relationship between the features (X) and the target (y) is assumed to be linear.
+    2. Independence: Observations are assumed to be independent of each other.
+    3. Homoscedasticity: The variance of the residuals (errors) is assumed to be constant across all values of the independent variables.
+    4. No Multicollinearity: Independent variables are not highly correlated with each other.
+    5. Normality of Errors: The residuals (differences between observed and predicted values) are normally distributed.
     """
     
     def __init__(self, learning_rate=0.01, iterations=1000):
