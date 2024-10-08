@@ -33,6 +33,16 @@ class LinearRegression:
     3. Homoscedasticity: The variance of the residuals (errors) is assumed to be constant across all values of the independent variables.
     4. No Multicollinearity: Independent variables are not highly correlated with each other.
     5. Normality of Errors: The residuals (differences between observed and predicted values) are normally distributed.
+    
+    Limitations:
+    ------------
+    1. Model Complexity: This implementation assumes a simple linear relationship between features and the target. It does not handle complex non-linear relationships without feature transformation or polynomial regression.
+    2. Gradient Descent Convergence: The model may struggle to converge if the learning rate is too high or too low, especially for datasets with complex patterns.
+    3. Feature Scaling: The model does not internally handle feature scaling. Features with varying scales might cause slow convergence or inaccurate results without prior normalization or standardization.
+    4. Outliers: Linear regression is sensitive to outliers, which can disproportionately affect the model's performance.
+    5. Multicollinearity: If the independent variables are highly correlated, this implementation does not include regularization techniques (like Ridge or Lasso regression) to handle multicollinearity.
+    6. Categorical Variables: This implementation assumes that the input features are numerical. Categorical variables need to be preprocessed (e.g., one-hot encoding) externally before being passed into the model.
+    7. Batch Gradient Descent: This implementation uses batch gradient descent, which can be computationally expensive on very large datasets. It does not implement more efficient optimization algorithms like stochastic gradient descent (SGD) or mini-batch gradient descent.
     """
     
     def __init__(self, learning_rate=0.01, iterations=1000):
