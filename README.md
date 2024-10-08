@@ -10,7 +10,7 @@ The following is a list of machine learning models that will be implemented. A c
 - [x] Linear Regression
 - [ ] Lasso Regression
 - [ ] Ridge Regression
-- [ ] Logistic Regression
+- [x] Logistic Regression
 
 ### 2. Classification Models
 - [ ] K-Nearest Neighbors (KNN)
