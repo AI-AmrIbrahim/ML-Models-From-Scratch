@@ -13,7 +13,7 @@ The following is a list of machine learning models that will be implemented. A c
 - [x] Logistic Regression
 
 ### 2. Classification Models
-- [ ] K-Nearest Neighbors (KNN)
+- [x] K-Nearest Neighbors (KNN)
 - [ ] Naive Bayes
 - [ ] Support Vector Machine (SVM)
 
